@@ -53,17 +53,3 @@ function fetchAirQualityData(libraryName) {
 
 
 
-// var xhr = new XMLHttpRequest();
-// var url = 'http://apis.data.go.kr/6430000/cbLibraryInfoService/getLibraryInfo'; /*URL*/
-// var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'FW5DPPM8SSGQ6Ps%2BnXQLxumu9OWwkVONlMBaIWyHQ61xjYxOJYuL0ymuS4qzqYS7YajX1Dkdnn%2FaWtznUwr6rA%3D%3D'; /*Service Key*/
-// queryParams += '&' + encodeURIComponent('currentPage') + '=' + encodeURIComponent('1'); /**/
-// queryParams += '&' + encodeURIComponent('perPage') + '=' + encodeURIComponent('10'); /**/
-// queryParams += '&' + encodeURIComponent('FCLTY') + '=' + encodeURIComponent('청주시립도서관'); /**/
-// xhr.open('GET', url + queryParams);
-// xhr.onreadystatechange = function () {
-//     if (this.readyState == 4) {
-//         alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
-//     }
-// };
-
-// xhr.send('');
