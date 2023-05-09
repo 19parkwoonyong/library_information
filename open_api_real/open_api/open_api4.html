@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="open_api4.css">
+  <title>도서관의 정보</title>
+</head>
+<body>
+  <div class="Main_container" >
+    <h1>충청북도 도서관 정보 제공 API를 활용한 웹<br><br>2019036057박운용</h1>
+    <div class="container1">
+      <h2>도서관의 정보</h2>
+      <div class = "sub_container">
+        <label for="libraryName">도서관 이름:</label>
+        <input type="text" id="libraryName" name="libraryName" />
+        <button id="fetchDataBtn">데이터 조회</button>
+      </div>
+
+      <p>시설이름: <span id="id">입력 하세요</span></p>
+      <p>주소: <span id="location">입력 하세요</span></p>
+      <p>지상 층수: <span id="over_floor">입력 하세요</span></p>
+      <p>지하 층수: <span id="under_floor">입력 하세요</span></p>
+      <p>면적(평수): <span id="width">입력 하세요</span></p>
+    </div>
+
+
+    <div class="container2" onclick="window.open('https://namu.wiki/w/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EA%B3%B5%EA%B3%B5%EB%8F%84%EC%84%9C%EA%B4%80%20%EB%AA%A9%EB%A1%9D', '_blank');">
+      <p>충청북도의 도서관 목록 사이트 가기</p>
+    </div>
+
+  </div>
+
+  <script src="open_api4.js"></script> <!-- 위에서 작성한 JS 코드를 포함하는 파일로 교체 -->
+  <script>
+    fetchAirQualityData(); // 페이지 로드 시 데이터를 가져옵니다.
+  </script>
+</body>
+</html>
